@@ -10,6 +10,7 @@ const App = () => {
   }
   function handleClose(){
     setclosed(!isclosed)
+    // 
   }
   return (
     <div>
