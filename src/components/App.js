@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import './../styles/App.css';
 
 const App = () => {
-  const [isclick,setClick]=useState(false);
-  const [isclosed,setclosed]=useState(false)
+  const [isclick,setClick]=useState(true);
+  const [isclosed,setclosed]=useState(true)
   function handlclick(){
     setClick(!isclick)
   }
